@@ -1,5 +1,5 @@
 const mostrarDatosEnHTML  = async () => {
-    const url = "https://jsonplaceholder.typicode.com/poss";
+    const url = "https://jsonplaceholder.typicode.com/posts";
     try {
       const response = await fetch(url);
       if (response.status !== 200){
